@@ -3,7 +3,7 @@
 require 'sinatra/base'
 require 'json'
 require 'rest-client'
-require 'XmlSimple'
+require 'xmlsimple'
 
 class VCloudStats < Sinatra::Base
   set :sessions, true
