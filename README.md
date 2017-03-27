@@ -19,7 +19,7 @@ oc new-project elk
 oc new-app lbischof/kibana
 oc new-app lbischof/elasticsearch
 oc new-app https://github.com/ukcloud/openshift3-elk.git#vcloud-metrics --context-dir=vcloud-metrics -name vcloud-metrics
-oc new-app lbischof/logstash~https://github.com/ukcloud/openshift3-elk.git#vcloud-metrics --context-dir vcloud-metrics --name logstash
+oc new-app lbischof/logstash~https://github.com/ukcloud/openshift3-elk.git#vcloud-metrics --context-dir config --name logstash-git --env-file=vcloud-creds.txt
 oc expose service kibana
 ```
 
