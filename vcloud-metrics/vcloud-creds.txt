@@ -1,4 +1,0 @@
-VCD_API_HOST=api.vcd.z0000f.r00006.frn.portal.skyscapecloud.com
-VCD_ORG=1-1-32-735a4c
-VCD_PASSWORD=R@inCl0ud
-VCD_USERNAME=4930.1.607076
